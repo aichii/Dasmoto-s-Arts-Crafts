@@ -78,10 +78,24 @@ footer {
 .year {
   font-family: Helvetica;
   color: goldenrod;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 .shadow  {
   text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px tan;
   font-size: 20px;
 }
+
+a:link {
+  color: coral;
+  text-decoration: none;
+} 
+a:visited {
+  text-decoration: none;
+  color: coral; 
+}
+ a:hover {
+  color: gray;
+  text-decoration: none;
+ }
+
