@@ -14,10 +14,21 @@ header {
   background-image: url("images/pattern.jpeg");
   border-radius: 25px;
   margin-top: -4%;
+  margin-bottom: 40px;
 
- 
 }
-.brushes {
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  border: dashed;
+  font-size: 25px;
+  margin: 50px 50px;
+  background-color: khaki;
+  opacity: 10%;
+}
+
+#brushes {
   background-color: mediumspringgreen;
   font-family: Helvetica;
   font-size: 32px;
@@ -33,7 +44,7 @@ span {
   font-weight: bold;
 }
 
-.frames {
+#frames {
   background-color: coral;
   font-family: Helvetica;
   font-size: 32px;
@@ -47,7 +58,7 @@ h3 {
   font-family: Helvetica;
 }
 
-.paint {
+#paint {
   background-color: skyblue;
   font-family: Helvetica;
   font-size: 32px;
@@ -86,15 +97,15 @@ footer {
   font-size: 20px;
 }
 
-a:link {
+article, a:link {
   color: coral;
   text-decoration: none;
 } 
-a:visited {
+article, a:visited {
   text-decoration: none;
   color: coral; 
 }
- a:hover {
+article, a:hover {
   color: gray;
   text-decoration: none;
  }
