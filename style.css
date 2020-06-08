@@ -15,17 +15,19 @@ header {
   border-radius: 25px;
   margin-top: -4%;
   margin-bottom: 40px;
+  border: solid;
 
 }
 
 nav {
   display: flex;
   justify-content: space-evenly;
-  border: dashed;
+  border: solid;
   font-size: 25px;
   margin: 50px 50px;
-  background-color: khaki;
-  opacity: 10%;
+  background-color: beige;
+  border-radius: 30%;
+  
 }
 
 #brushes {
